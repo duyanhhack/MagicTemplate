@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+
+    <link rel="stylesheet" href="./css/signing.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+    <div class="alert-box">
+        <img src="./images/error.png" class="alert-img" alt="">
+        <p class="alert-msg">message</p>
+    </div>
+
+    <section class="form-table">
+        <a href="./index.html"><img src="./images/logo-big-black.png" class="logo-middle" alt=""></a>
+        <div>
+            <input type="text" placeholder="Tên của bạn" id="name">
+
+            <input type="email" placeholder="Email" id="email">
+
+            <input type="password" placeholder="Mật khẩu" id="password">
+
+            <input type="password" placeholder="Nhập lại mật khẩu" id="repassword">
+
+            <input type="text" placeholder="Số điện thoại" id="number">
+
+            <input type="checkbox" checked class="checkbox" id="terms-cond">
+            <label for="terms-cond">đồng ý với <a href="">điều khoản dịch vụ</a></label>
+            
+            <br>
+
+            <input type="checkbox" checked class="checkbox" id="notification">
+            <label for="notification">đồng ý nhận thông báo qua email</label>
+
+            <button class="submit-btn">Tạo tài khoản</button>
+        </div>
+        <a href="./signin.html" class="link">đã có tài khoản? <span class="blue">đăng nhập tại đây</span></a>
+    </section>
+
+    <script src="./js/form.js"></script>
+</body>
+</html>

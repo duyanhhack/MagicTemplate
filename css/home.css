@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+.section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.section-first {
+    background-image: url(../images/bg-2.png);
+}
+.section-second {
+    background-image: url(../images/bg-1.png);
+}
+.section-third{
+    background-image: url(../images/accessories-collection.png);
+}
+.section-fourth{
+    background-image: url(../images/all-product.png);
+}
+.section .text {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: white;
+}
+.section-bottom .text {
+    top: 50%;
+    left: 45%;
+}
+.section h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.section a {
+    color: white;
+    font-weight: 500;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.section-bottom h2 {
+    font-size: 3rem;
+}
+.section-bottom a {
+    display: block;
+    text-align: center;
+}
+.fp-right ul li a span {
+    background: white !important;
+}
+
+@media (max-width: 992px) {
+    .section {
+        background-position: center;
+    }
+}

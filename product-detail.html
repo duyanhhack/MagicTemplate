@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tên sản phẩm</title>
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="./css/prod-detail.css">
+    <link rel="stylesheet" href="./css/product-slider.css">
+    <link rel="stylesheet" href="./OwlCarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./OwlCarousel/css/owl.theme.default.min.css">
+    <script src="https://kit.fontawesome.com/8d46933cc8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar"></nav>
+    <section class="cart__overlay"></section>
+
+    <div class="alert">
+        <i class="fas fa-check-square"></i>
+        <p>Đã có trong giỏ hàng rồi bạn nhé, iu ^.^</p>
+    </div>
+
+    <div class="container">
+        <section class="product-details">
+
+            <div class="image-slider">
+                <div class="product-images">
+                    <img src="./images/Men-products/card3.png" class="active" alt="">
+                    <img src="./images/Men-products/product image 2.png" alt="">
+                    <img src="./images/Men-products/product image 3.png" alt="">
+                    <img src="./images/Men-products/product image 4.png" alt="">
+                </div>
+            </div>
+
+            <div class="details">
+                <h2 class="product-brand">áo nam 1</h2>
+                <p class="product-short-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro esse iusto officia accusantium maiores provident quod nisi dignissimos fugiat ullam voluptatibus, ab quia veritatis et fugit sint ipsum natus explicabo.</p>
+                <span class="product-price">250.000 VNĐ</span>
+                <span class="product-real-price">500.000 VNĐ</span>
+                <span class="product-saleoff">( 50% off )</span>
+
+                <p class="product-sub-heading">sizes:</p>
+                <input type="radio" name="size" value="s" checked hidden id="s-size">
+                <label for="s-size" class="size-radio-btn check">s</label>
+                <input type="radio" name="size" value="m" hidden id="m-size">
+                <label for="m-size" class="size-radio-btn">m</label>
+                <input type="radio" name="size" value="l" hidden id="l-size">
+                <label for="l-size" class="size-radio-btn">l</label>
+                <input type="radio" name="size" value="xl" hidden id="xl-size">
+                <label for="xl-size" class="size-radio-btn">xl</label>
+
+                <button class="cart-btn btn-no-hide">add to cart</button>
+            </div>
+        </section>
+
+        <section class="detail-des">
+            <h2 class="heading">Mô tả</h2>
+            <p class="des">
+                Chất liệu: 100% cotton<br>
+                Kích thước: S - XL<br>
+                Dành cho: Unisex
+                <br>
+                Chiều dài tay áo: Cổ tay áo ngắn
+                <br><br>
+                Mềm mại và thoải mái<br>
+                Lâu dài<br>
+                Thời trang & không bao giờ lỗi mốt<br>
+                Kích thước có thể thay đổi trong cùng một loạt sản phẩm<br>
+                Do quá trình in ấn và nguồn ánh sáng chụp ảnh, màu sắc có thể thay đổi 5-10% so với sản phẩm thực tế
+                Tất cả các sản phẩm của chúng tôi là hàng chất lượng cao. Tất cả sản phẩm là 100% cotton chất lượng cao, quý khách hoàn toàn có thể yên tâm về chất lượng sản phẩm. Nếu bạn có thắc mắc gì hãy liên hệ với chúng tôi.
+            </p>
+        </section>
+
+        <div class="more-like-this">
+            <h2>Sản phẩm tương tự</h2>
+            <a class="viewmore" href="./saleoff.html">xem thêm <i class="fas fa-angle-right"></i></a>
+
+            <div class="owl-carousel owl-theme" id="more-like-this">
+                <a href="./product-detail.html" class="product-card">
+                    <div class="product-image">
+                        <span class="offer">50% Off</span>
+                        <img src="./images/Men-products/card2.png" class="product-thumb" alt="">
+                        <button class="card-btn">add to cart</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Áo nam</h2>
+                        <p class="product-short-des">Giới thiệu sản phẩm</p>
+                        <span class="price">250.000 VNĐ</span><span class="real-price">500.000 VNĐ</span>
+                    </div>
+                </a>
+                <a href="./product-detail.html" class="product-card">
+                    <div class="product-image">
+                        <span class="offer">50% Off</span>
+                        <img src="./images/Men-products/card3.png" class="product-thumb" alt="">
+                        <button class="card-btn">add to cart</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Áo nam</h2>
+                        <p class="product-short-des">Giới thiệu sản phẩm</p>
+                        <span class="price">250.000 VNĐ</span><span class="real-price">500.000 VNĐ</span>
+                    </div>
+                </a>
+                <a href="./product-detail.html" class="product-card">
+                    <div class="product-image">
+                        <span class="offer">50% Off</span>
+                        <img src="./images/Men-products/card4.png" class="product-thumb" alt="">
+                        <button class="card-btn">add to cart</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Áo nam</h2>
+                        <p class="product-short-des">Giới thiệu sản phẩm</p>
+                        <span class="price">250.000 VNĐ</span><span class="real-price">500.000 VNĐ</span>
+                    </div>
+                </a>
+                <a href="./product-detail.html" class="product-card">
+                    <div class="product-image">
+                        <span class="offer">50% Off</span>
+                        <img src="./images/Men-products/card5.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add to cart</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Áo nam</h2>
+                        <p class="product-short-des">Giới thiệu sản phẩm</p>
+                        <span class="price">250.000 VNĐ</span><span class="real-price">500.000 VNĐ</span>
+                    </div>
+                </a>
+                <a href="./product-detail.html" class="product-card">
+                    <div class="product-image">
+                        <span class="offer">50% Off</span>
+                        <img src="./images/Men-products/card17.png" class="product-thumb" alt="">
+                        <button class="card-btn">add to cart</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Áo nam</h2>
+                        <p class="product-short-des">Giới thiệu sản phẩm</p>
+                        <span class="price">250.000 VNĐ</span><span class="real-price">500.000 VNĐ</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer></footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./OwlCarousel/owl.carousel.min.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/prod-detail.js"></script>
+</body>
+</html>
